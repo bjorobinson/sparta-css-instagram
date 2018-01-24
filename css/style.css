@@ -1,0 +1,82 @@
+html {
+  text-align: center;
+  line-height: 180%;
+}
+
+/*Section sizes do break when not in fullscreen*/
+body{
+  margin:auto;
+  width: 90%;
+}
+
+aside{
+  float:right;
+}
+
+article{
+  float:left;
+}
+
+nav{
+
+  clear:both;
+}/*Chosen by modding to find sweet spot. Better way?*/
+
+div{
+  margin-top:2%;
+  border: 2px solid rgba(0,0,0,0.25);
+  padding-left:5%;
+  padding-right:5%;
+}
+
+.main-signup{
+
+}
+
+form input{
+  width: 100%;
+}
+
+form input[type=submit]{
+    background:inherit;
+    color:inherit;
+    border: none;
+    font: inherit;
+    cursor: inherit;
+}
+
+.login{
+
+}
+
+.get-the-app{
+  border: none;
+}
+
+.get-the-app-image-links{
+  border:inherit;
+} /*Potentially Repeated Code*/
+
+.button{
+  margin: auto;
+  background-color: rgb(59, 89, 153);
+  border: none;
+  text-decoration: none;
+  color: white;
+  cursor:pointer;
+  border-radius: 5px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Source https://css-tricks.com/line-on-sides-headers/*/
+span:before, span:after{
+  content:"EmptyLineThisMayBeCheating";
+  color:rgb(255,255,255);
+  text-decoration: line-through;
+  text-decoration-color: rgb(0,0,0);
+
+}
